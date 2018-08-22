@@ -51,7 +51,7 @@ else:
 
 cost = int(input("Enter the cost"))
 if(cost >= 1000):
-    cost = cost/100
+    cost = cost-(cost*0.1)
     print(cost,"After discount")
 else:
     print(cost)
