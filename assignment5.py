@@ -22,12 +22,8 @@ else:
 age1 = int(input("enter age of first person: "))
 age2 = int(input("enter age of second person: "))
 age3 = int(input("enter age of third person: "))
-if(age1>age2 and age1>age3):
-    print("first person is oldest")
-elif(age2>age3 and age2>age1):
-    print("second person is oldest")
-elif(age3>age1 and age3>age2):
-    print("third person is oldest")
+print("oldest",max(age1,age2,age3))
+print("youngest",min(age1,age2,age3))
 
 
 #Question-4
